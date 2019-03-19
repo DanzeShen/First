@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, i;
+    i = 5;
+    cout<<"一次输入5个成绩（用空格隔开），判断是否及格"<<endl;
+    
+    while(i > 0)
+    {
+        cin>>n;
+
+        if (n >= 60)
+            cout << "及格" << endl;
+        else
+            cout << "不及格" << endl;
+
+        i = --i;
+    }
+    
+    return 0;
+} // 
